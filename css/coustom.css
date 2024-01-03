@@ -1,0 +1,41 @@
+/* 
+.col-md-3 img {
+    position: absolute;
+    z-index: 10;
+}
+.col-md-3 .overlay {
+position: absolute;
+    width: 50%;
+    background-color: #fff;
+    height: 125px;
+    margin-left: 97px;
+    border-radius: 20px;
+} */
+
+.col-md-3 img {
+    position: absolute;
+    z-index: 10;
+}
+
+.col-md-3 .overlay {
+    position: absolute;
+    width: 50%;
+    background-color: #fff;
+    height: 125px;
+    margin-left: 97px;
+    border-radius: 20px;
+    z-index: 5;
+    /* Ensure overlay is below the text */
+}
+
+.col-md-3 .paragraph {
+    position: absolute;
+    bottom: 0;
+    /* Position text at the bottom */
+    width: 100%;
+    /* Span the full width of the column */
+    text-align: center;
+    /* Center the text horizontally */
+    z-index: 15;
+    /* Ensure text is above the overlay */
+}
